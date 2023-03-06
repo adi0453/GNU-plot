@@ -1,0 +1,5 @@
+f(x) = (x >= 0 && x < 10)? sin(x) : x**2
+set title 'Broken Function'
+set key box
+set key top center
+pl [-11:11] f(x) lw 3 lt -1

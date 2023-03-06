@@ -1,0 +1,6 @@
+set parametric
+set trange [-pi:pi]
+set xrange [-1.5:1.5]
+set yrange [-1.5:1.5]
+set title 'Parametric plot
+pl cos(t), sin(3*t+50) lw 3 lc -1

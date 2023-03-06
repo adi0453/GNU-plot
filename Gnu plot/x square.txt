@@ -1,0 +1,1 @@
+pl x**2 title "x**2" w p pt 6 lc 7

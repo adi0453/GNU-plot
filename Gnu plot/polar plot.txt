@@ -1,0 +1,3 @@
+set polar
+set title 'Polar Plot'
+pl cos(2*t)*sin(2*t) lw 3 lc -1

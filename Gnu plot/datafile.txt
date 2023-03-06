@@ -1,0 +1,9 @@
+cd 'C:\Users\M P Shaw\Documents\Adarsh\python\Gnu plot'
+set title 'Graph plotted using datafile dtf.dat'
+f(x)= a*x+b
+fit f(x) 'dtf.dat' via a,b
+set xtics 20
+set ytics 200
+set key box
+set key top center
+pl 'dtf.dat' pt 7 title 'dtf.dat', f(x) title 'a*x + b'
